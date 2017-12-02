@@ -1,0 +1,120 @@
+
+header{
+  display: flex;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+}
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+body{
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+a{
+  color: seashell;
+  text-decoration: underline;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#mission{
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 70px;
+}
+.content{
+  display: flex;
+  background-color: black;
+  width: 1200px;
+  align-items: center;
+  flex-direction: column;
+}
+h2, h4{
+  margin: 10px;
+}
+.tea-container{
+  display: flex;
+  padding-top: 70px;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.images img{
+  height: 200px;
+  width: 300px;
+  padding: 10px
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.locations{
+  display: flex;
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  flex-direction: column;;
+  align-items: center;
+  padding-top: 70px;
+}
+.locations-content-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.locations-content{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1.0;
+  margin: 15px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contacts{
+  display: flex;
+  width: 1000px;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+footer{
+  display: flex;
+  width: 100%;
+  height: 70px;
+  text-align: left;
+  padding-left: 20px;
+}
